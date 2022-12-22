@@ -1,0 +1,68 @@
+.form-container input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #101010;
+  padding: 5px; 
+  margin:5px 0px;
+  width:250px;
+}
+button.submit-btn,
+button.submit-btn a {
+  width: 125px;
+  color: #fff;
+  background: #101010;
+  border-radius: 5px;
+  height: 25px;
+  margin-top: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background:#fff;
+  border-radius:5px;
+  box-shadow: 5px 5px 15px 20px rgb(0 0 0 / 10%);
+  width: 300px;
+  margin: 50px auto;
+  padding: 25px;
+}
+.form-data table{
+  width: 768px;
+  margin: 0 auto;
+}
+.form-data thead th,.form-data tbody tr:nth-child(even){
+  background:#dcdcdc;
+}
+.form-data tbody tr td,.form-data thead th {
+ padding:5px;
+  color:#101010;
+  text-align:left;
+}
+.form-data tbody tr td:first-child{
+  text-transform:capitalize;
+}
+.navbar{
+  background:#fff;
+  border-radius:5px;
+  box-shadow: 5px 5px 15px 20px rgb(0 0 0 / 10%);
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar button.submit-btn {
+  margin: 0px 5px;
+  cursor: pointer;
+}
+h1{
+ text-align: center;
+}
+input::selection{
+  background-color: #fff;
+}
+@media only screen and (max-width:768px){
+  .form-data table{
+    width: 95%;
+  }
+}
